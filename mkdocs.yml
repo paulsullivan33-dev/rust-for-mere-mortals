@@ -1,0 +1,22 @@
+site_name: Rust for Mere Mortals
+site_description: Plain-language Rust guides — no CS degree required.
+site_url: https://paulsullivan33-dev.github.io/rust-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Rust Is: what-rust-is.md
+  - Installing Rust: installing-rust.md
+  - Your First Program: first-program.md
+  - Variables and Types: variables-and-types.md
+  - Ownership: ownership.md
+  - Borrowing: borrowing.md
+  - Structs and Enums: structs-and-enums.md
+  - Error Handling: error-handling.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
